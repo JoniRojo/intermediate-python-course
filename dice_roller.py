@@ -1,8 +1,9 @@
+import random
 def main():
   print('You rolled a die')
  
-  roll = 5
-  print(f"You rolled a {roll}")
+  l = random.randint(1,6)
+  print(f"You rolled a {l}")
 
 if __name__== "__main__":
   main()
