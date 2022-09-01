@@ -2,13 +2,10 @@ import random
 def main():
   #print('You rolled a die')
   
-  dice_rolls = 2
-  dice_sum = 0
-  
   l = random.randint(1,6)
   print(f"You rolled a {l}")
   
-  import random
+
   dice_rolls = int(input('How many dice would you like to roll? '))
   dice_size = int(input('How many sides are the dice? '))
   dice_sum = 0
