@@ -9,7 +9,7 @@ def main():
   #print(f"You rolled a {l}")
   
   #for i in range(0,dice_rolls):
-     roll = random.randint(1,6)
+   roll = random.randint(1,6)
   #  print(f'You rolled a {roll}')
   #  dice_sum = dice_sum + roll
     
